@@ -12,9 +12,9 @@ int main(){
     printf("C = celcius\nF = fahrenheit \n");
     scanf(" %c", &escala);
 
-    if(escala == 'C'){
+    if(escala == 'C'|| 'c'){
         printf("%.2lf Celcius = %.2f Fahrenhit\n", temperatura, (temperatura * 9 / 5) + 32);
-    }else if(escala == 'F'){
+    }else if(escala == 'F'||'f'){
         printf("%.2f Fahreinheit = %.2f Celcius\n", temperatura, (temperatura -32) * 5 / 9);
     }else{
         printf("Escala Invalida!\n");

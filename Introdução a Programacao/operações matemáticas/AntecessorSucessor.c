@@ -1,7 +1,7 @@
 #include <stdio.h>
 
+// CALCULAR O ANTECESSOR E O SUCESSOR DE UM NUMERO
 int main(){
-    // CALCULAR O ANTECESSOR E O SUCESSOR DE UM NUMERO
 
     int num;
 
